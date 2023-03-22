@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style1.css" media="">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../js/file1.js"></script>
+    <title>menu_RikuBar</title>
+</head>
+
+
+
+<body>
+    <img src="../img-box/img/naiyo.png" alt="" id="naiyo">
+    <div class="all">
+        <script type="text/javascript">
+            header_dayo();
+        </script>
+
+        <br><br><br>
+
+        <!-- メイン -->
+        <a id="flask_top"></a>
+        <div class="nav_all nav_sql">
+            <ul>
+                <li class="current"><a href="">基本</a></li>
+                <li><a href="./s.sql2.html">メモ</a></li>
+                <li><a href="./s.sql3.html">SQLiteの使用</a></li>
+            </ul>
+        </div>
+
+        <div class="table_vscode">
+            <!-- <a href="#flask_top">トップ</a><br> -->
+            <a href="#flask_kihon"><img src="../img/s1.png" alt="" class="table_icon"></a>
+            <a href="#flask_ketugo"><img src="../img/s2.png" alt="" class="table_icon"></a>
+            <a href="#flask_sort"><img src="../img/s3.png" alt="" class="table_icon"></a>
+            <!-- <a href="#flask_db"><img src="../img/fla4.png" alt="" class="table_icon"></a>
+        <a href="#flask_for"><img src="../img/fla5.png" alt="" class="table_icon"></a>
+        <a href="#flask_nyuryo"><img src="../img/fla6.png" alt="" class="table_icon"></a> -->
+        </div>
+
+        <a href="#flask_top">
+            <div class="namako nama_ko"></div>
+        </a>
+
+        <div class="page">
+            <div class="title">SQL</div><br>
+            カラム全部選択したい場合はアナル使う(SELECT *…みたいな)<br>
+            全はアナル、アナルは全。つまりヨグ=ソトース、はっきりわかんだね。<br><br><br>
+
+
+            <b>■SELECT文</b>　データの取得<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA,カラムB,… FROM テーブル名 WHERE 条件文;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT * FROM user WHERE gender="male";</pre>
+            </div>
+            <div class="memo">NULLが入っている部分のデータを取得したい場合は<br>
+                SELECT カラムA,カラムB,… FROM テーブル名 WHERE 該当のカラム IS NULL;<br>
+                と記述する。WHERE 該当のカラム=NULLだと取れない。<br>
+                NULLが要らない場合はWHERE 該当のカラム IS NOT NULL;にすればOK</div><br><br>
+
+
+            <a id="flask_kihon"><b>■INSERT文</b></a>　データの追加<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+INSERT INTO テーブル名(カラムA,カラムB,…) VALUES('カラムAに入れるデータ','カラムBに云々',…);</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">INSERT INTO user(name,age,gender) VALUES('Genya',16,'male');
+<span class="h">-- テキスト型(上記だとname,gender)に入れたい情報は''で囲み、数字は囲まずにそのまま(age)</span></pre>
+            </div><br><br>
+
+
+
+            <b>■UPDATE文</b>　データの更新<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+UPDATE テーブル名 SET 更新処理 WHERE 条件文;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">UPDATE user SET name="Sumiko",gender="female?" WHERE id=1;</pre>
+            </div><br><br>
+
+
+
+            <b>■DELETE文</b>　データの削除<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+DELETE FROM テーブル名 WHERE 条件文;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">DELETE FROM user WHERE id=1;
+<span class="h">-- WHEREで消す部分を指定しないと全部消えてしまうので注意！</span></pre>
+            </div><br><br><br>
+
+
+            <b>■AND演算子</b>　複数の条件を指定したい<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT カラムA,カラムB,… FROM テーブル名 
+WHERE 条件文1
+AND 条件文2;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT * FROM user 
+WHERE age=16
+AND gender="male";</pre>
+            </div><br><br>
+
+            <b>■OR演算子</b>　条件のどれかに該当するやつ全部選択したい<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT カラムA,カラムB,… FROM テーブル名 
+WHERE 条件文1
+OR 条件文2;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT * FROM user 
+WHERE age=16
+OR gender="male";</pre>
+            </div><br><br><br>
+
+
+
+            <a id="flask_sort"><b>■ソート</b></a>　ORDER BY<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA,カラムB,… FROM テーブル名 ORDER BY ソートしたいカラム 順番の指定;
+<span class="h">-- 順番の指定……ASC(昇順)、DESC(降順)</span></pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT * FROM user ORDER BY age ASC;</pre>
+            </div><br><br><br>
+
+
+            <b>■レコードの数指定</b>　LIMIT<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA,カラムB,… FROM テーブル名 LIMIT 取り出したい数;
+<span class="h">-- ORDER BYでソートしてからやると良い感じに。LIMITつける位置は一番最後
+-- WHEREとも併用できるよ
+</span></pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">SELECT * FROM user ORDER BY id DESC LIMIT 3;</pre>
+            </div><br><br><br>
+
+
+            <a id="flask_ketugo"><b>■テーブルの結合</b></a>　がっちゃんこ<br>
+            <b>内部結合</b><br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA, カラムB,… FROM テーブル名A
+    INNER JOIN テーブル名B ON 結合の条件;
+    <span class="h">-- 内部結合の場合、ベースとなるテーブルから、条件にマッチするレコードがないものは削除される</span></pre>
+            </div>
+            <b>外部結合</b><br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA, カラムB,… FROM テーブル名A
+    <span class="h">-- LEFTは左側のテーブルを、RIGHTは右側のテーブルを軸にして結合</span>
+    LEFT(RIGHT) OUTER JOIN テーブル名B ON 結合の条件;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+
+            <b>■取り出して名前をつける</b>　AS<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラム AS つけたい名前 FROM テーブル名;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+
+
+            <b>■分岐</b>　CASE<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラム CASE <span class="h">// 「CASE」と「END」で囲んだ中に条件を記載</span>
+    WHEN 条件 THEN 条件を満たしたら表示する内容
+    <span class="h">// (他にも分岐させたい内容があればまたWHEN…で)</span>
+    ELSE 条件を満たしていなかったら表示する内容
+    END
+FROM テーブル名;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+
+
+            <b>■曖昧検索</b>　LIKE　%がワイルドカード(どんな文字列にも一致することを指す記号)になる<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA,カラムB,… FROM テーブル名 WHERE 検索に使うカラム LIKE 曖昧検索の条件;
+<span class="h">// 例えば前に「山」がつく名前を探したいなら"山%"、後ろにつく名前なら"%山",
+// 山がつくもの全てなら"%山%"と書いておく。曖昧部分が１文字だけなら%の代わりに_を使う。
+// また、条件に一致しない物を探したいならLIKEではなくNOT LIKEを使う。
+// それと検索条件に「％」とか「_」を入れたい場合は「\_」や「\%」にすればOK(エスケープ文字)</span></pre>
+            </div>
+            <b>大文字小文字の区別つけたい</b>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;">
+SELECT カラムA,カラムB,… FROM テーブル名 WHERE 検索に使うカラム LIKE BINARY 曖昧検索の条件;</pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+
+
+            <b>■</b>　<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+            <!-- <b>■</b>　<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br>
+
+            <b>■</b>　<br>
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div>
+            例
+            <div class="kuro2 sourceview">
+                <pre class="brush: html;"></pre>
+            </div><br><br><br> -->
+
+        </div>
+    </div>
+</body>
+
+</html>

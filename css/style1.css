@@ -1,0 +1,394 @@
+/* 1289以下はTOP崩れる */
+#naiyo {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+  transition: 1s;
+}
+
+.goto {
+    text-align: center;
+}
+
+/* ■ヘッダー */
+#header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(65, 65, 65);
+    z-index: 1145141919810;
+    	filter: drop-shadow(0 3px 3px  #2d7fead5); 
+    	transition-duration: 1s;
+}
+
+/* グラデーション */
+#header.con4 {
+	filter: drop-shadow(0 3px 3px  #75e927d5);
+    	transition-duration: 1s;
+}
+
+#header.con3{
+	filter: drop-shadow(0 3px 3px  #ffe629d5);
+    	transition-duration: 1s;
+}
+
+#header.con2{
+	filter: drop-shadow(0 3px 3px  #fa880Fd5);
+    	transition-duration: 1s;
+}
+
+#header.con1{
+	filter: drop-shadow(0 3px 3px  #ff3623d5);
+    	transition-duration: 1s;
+}
+
+.tablecon5{
+background-color: #2d7feab4;
+}
+.tablecon4{
+background-color: #75e927b4;
+
+}
+.tablecon3{
+background-color: #ffe629b4;
+}
+.tablecon2{
+background-color: #fa880Fb4;
+}
+.tablecon1{
+background-color: #ff3623b4;
+}
+
+.tablecon5.con5 {
+filter: drop-shadow(0 0 5px #62a2f6f2); 
+    	transition-duration: 1s;
+}
+
+.tablecon4.con4 {
+filter: drop-shadow(0 0 5px #a1fc64f2); 
+    	transition-duration: 1s;
+}
+
+.tablecon3.con3 {
+filter: drop-shadow(0 0 5px #ffeb52f2); 
+    	transition-duration: 1s;
+}
+
+.tablecon2.con2 {
+filter: drop-shadow(0 0 5px #ffb05df2); 
+    	transition-duration: 1s;
+}
+
+.tablecon1.con1 {
+filter: drop-shadow(0 0 5px #ff6153f2); 
+    	transition-duration: 1s;
+}
+
+
+/* ■ヘッダー＞メニュー */
+nav ul {
+    /* display: table; */
+    margin: 0 50px;
+    /* padding: 0; */
+    /* width: 90%; */
+    line-height: 47px;
+}
+
+nav li {
+    display: table-cell;
+    /* margin: 0 5px; */
+    padding: 0 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+/*  */
+nav a {
+    /* display: block; */
+    /* width: 100%; */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li.current {
+    border-bottom: 3px solid rgb(74, 236, 201);
+}
+
+nav li:hover {
+    border-bottom: 3px solid rgb(74, 236, 201);
+}
+
+/* ■ヘッダー＞モーダル */
+.content {
+    margin: 0 auto;
+}
+
+.modal {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* ページごとのメニューの色--------------------------------- */
+.nav_all {
+    display: table;
+    padding: 0;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.nav_all ul li {
+    display: table-cell;
+    min-width: 50px;
+    padding: 0 30px;
+}
+
+.nav_all ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+
+/* -------------------------------------------------- */
+
+/* ■全ページ＞ボタン----------------------------- */
+.button {
+    display: inline-block;
+    padding: 2em 5em;
+    margin: 20px 50px 0 0;
+    background: linear-gradient(#42dbba, #3adfc3);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    filter: drop-shadow(0 3px 3px rgba(176, 187, 187, 0.726));
+}
+
+.button:hover {
+    -webkit-animation: bounce 2s ease-in-out;
+    animation: bounce 2s ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+    5% {
+        -webkit-transform: scale(1.1, .8);
+    }
+
+    10% {
+        -webkit-transform: scale(.8, 1.1) translateY(-5px);
+    }
+
+    15% {
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+@keyframes bounce {
+    5% {
+        transform: scale(1.1, .8);
+    }
+
+    10% {
+        transform: scale(.8, 1.1) translateY(-5px);
+    }
+
+    15% {
+        transform: scale(1, 1);
+    }
+}
+
+
+/* 前ページ＞右のメニュー------------------------ */
+.table_vscode {
+    position: fixed;
+    left: 75%;
+    top: 13%;
+    padding: 20px;
+    width: 150px;
+    height: 60%;
+    text-align: center;
+}
+
+.table_vscode a {
+        text-decoration: none;
+}
+
+.table_icon {
+    color: #ffffff;
+    width: 165px;
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 52px;
+    /* ほわってしたの戻す */
+    transform: scale(1.0);
+    transition-duration: 0.5s;
+}
+
+/* ほわってさせる */
+.table_icon:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+/* ぽよん */
+.table_icon {
+    background-image: url("anim-symbol-on.png");
+    background-size: 27px 22px;
+    animation: anim-scale 0.5s ease-out;
+    transform-origin: 50% 50%;
+}
+
+@keyframes anim-scale {
+    0% {
+        transform: scale(0.4, 0.4);
+    }
+
+    40% {
+        transform: scale(1.2, 1.2);
+    }
+
+    60% {
+        transform: scale(1, 1);
+    }
+
+    80% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* 前ページ＞右のメニュー------------------------ */
+
+
+/* ■ページ共通 */
+.page {
+    margin: 60px 150px;
+    color: #ffffff;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.kuro {
+    color: #e3e3e3;
+    width: 60%;
+    padding: 20px 50px 30px;
+    font-size: 14px;
+}
+
+.kuro2 {
+    color: #e3e3e3;
+    width: 60%;
+    padding: 20px 50px;
+    font-size: 14px;
+}
+
+pre {
+    font-family: "メイリオ";
+}
+
+.memo {
+    font-size: 14px;
+}
+
+.y {
+    color: #EBD247;
+}
+
+.b {
+    color: #41B7D7;
+}
+
+.p {
+    color: #FF8095;
+}
+
+.g {
+    color: #8BDF4C;
+}
+
+.h {
+    color: #9DABAE;
+}
+
+/* ボタン----------------------------------------------------- */
+.click_here {
+    display: inline-block;
+    background-color: rgb(84, 214, 197);
+    color: #FFF;
+    width: 600px;
+    padding: 4px 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    -webkit-tap-highlight-color: transparent;
+    transition: .2s ease-out;
+    font-weight: bold;
+}
+
+.click_here:hover {
+    cursor: pointer;
+    text-decoration: none;
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* なまこ----------------------------------------- */
+.nama_ko {
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    left: 80%;
+    top: 76%;
+    padding: 20px;
+    text-align: center;
+    background: url(../img-box/img/namako_2.png) no-repeat;
+    animation-play-state: paused;
+}
+
+.nama_ko:hover {
+    animation: mochi .4s steps(6) forwards;
+}
+
+@keyframes mochi {
+    100% {
+        background-position: -960px 0;
+    }
+}
+
+.counter {
+    display: none;
+}
+
+/* studio----------------------------------------- */
+
+.img_width {
+    width: 68%;
+}
+
+.img_width img {
+    width: 100%;
+}
