@@ -392,3 +392,17 @@ pre {
 .img_width img {
     width: 100%;
 }
+
+/* 文字の大きさ----------------------------------------- */
+.text_small {
+    color:#ffffff;
+    font-size:0.5em;
+}
+
+.texttest {
+    line-height: 1;
+}
+
+#memo {
+   line-height: 1.2; 
+}
