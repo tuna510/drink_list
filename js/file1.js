@@ -52,7 +52,7 @@ $(function () {
     $('a[href^="#"]').click(function () {
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top - 100;
+        var position = target.offset().top -150;
         var speed = 600;
         $('body,html').animate({
             scrollTop: position
@@ -90,7 +90,7 @@ jQuery(function(){
     var t = i.getBoundingClientRect();
     var n = t.top;
 	jQuery(window).scroll(function () {
-		if (jQuery(this).scrollTop() > s && jQuery(this).scrollTop() <=n) { 
+		if (jQuery(this).scrollTop() > s-150 && jQuery(this).scrollTop() <=n) { 
             header.addClass('con4');
             tablecon4.addClass('con4');
 		} else { 
@@ -111,7 +111,7 @@ jQuery(function(){
     var t = i.getBoundingClientRect();
     var n = t.top;
 	jQuery(window).scroll(function () {
-		if (jQuery(this).scrollTop() > s && jQuery(this).scrollTop() <=n) { 
+		if (jQuery(this).scrollTop() > s-150 && jQuery(this).scrollTop() <=n) { 
 			header.addClass('con3');
             tablecon3.addClass('con3');
 		} else { 
@@ -132,7 +132,7 @@ jQuery(function(){
     var t = i.getBoundingClientRect();
     var n = t.top;
 	jQuery(window).scroll(function () {
-		if (jQuery(this).scrollTop() > s && jQuery(this).scrollTop() <=n) { 
+		if (jQuery(this).scrollTop() > s-150 && jQuery(this).scrollTop() <=n) { 
             header.addClass('con2');
             tablecon2.addClass('con2');
 		} else { 
@@ -149,7 +149,7 @@ jQuery(function(){
     var o = p.getBoundingClientRect();
     var s= o.top;
 	jQuery(window).scroll(function () {
-		if (jQuery(this).scrollTop() > s) { 
+		if (jQuery(this).scrollTop() > s-150) { 
             header.addClass('con1');
             tablecon1.addClass('con1');
 		} else { 
