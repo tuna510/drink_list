@@ -2,596 +2,683 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style1.css" media="">
-    <script src="./js/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="./js/file1.js"></script>
-    <title>menu_RikuBar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style1.css" media="screen and (min-width:500px)">
+        <link rel="stylesheet" href="./css/style2.css" media="screen and (max-width:499px)">
+        <script src="./js/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="./js/file1.js" media="screen and (min-width:500px)"></script>
+        <script type="text/javascript" src="./js/file2.js" media="screen and (max-width:499px)"></script>
+        <title>menu_RikuBar</title>
 </head>
 
 <body>
-    <img src="../img-box/img/naiyo.png" alt="" id="naiyo">
-    <div class="all">
+        <img src="../img-box/img/naiyo.png" alt="" id="naiyo">
+        <div class="all">
 
 
-        <header id="header">
-            <nav>
-                <ul>
-                    <font size="2">
-                        <li class=""><a href="">カクテル</a></li>
-                        <li>
-                            <a href="./html/カクテル言葉.html">カクテル言葉</a>
-                        </li>
-                    </font>
-                </ul>
-            </nav>
-        </header>
-        <br>
-        <!-- メイン -->
-        <a id="flask_top"></a>
-        <div class="table_vscode">
-            <!-- <a href="#flask_top">トップ</a><br> -->
-            <a href="#drink_con5">
-                <div class="table_icon tablecon5">1~40</div>
-            </a>
-            <a href="#drink_con4">
-                <div class="table_icon tablecon4">41~80</div>
-            </a>
-            <a href="#drink_con3">
-                <div class="table_icon tablecon3">81~120</div>
-            </a>
-            <a href="#drink_con2">
-                <div class="table_icon tablecon2">121~160</div>
-            </a>
-            <a href="#drink_con1">
-                <div class="table_icon tablecon1">160~</div>
-            </a>
-        </div>
+                <header id="header">
+                        <nav>
+                                <ul>
+                                        <font size="2">
+                                                <li class=""><a href="">カクテル</a></li>
+                                                <li>
+                                                        <a href="./html/カクテル言葉.html">カクテル言葉</a>
+                                                </li>
+                                        </font>
+                                </ul>
+                        </nav>
+                </header>
+                <br>
+                <!-- メイン -->
+                <a id="flask_top"></a>
+                <div class="table_drink">
+                        <!-- <a href="#flask_top">トップ</a><br> -->
+                        <a href="#drink_con5">
+                                <div class="table_icon tablecon5">CON*5</div>
+                        </a>
+                        <a href="#drink_con4">
+                                <div class="table_icon tablecon4">CON*4</div>
+                        </a>
+                        <a href="#drink_con3">
+                                <div class="table_icon tablecon3">CON*3</div>
+                        </a>
+                        <a href="#drink_con2">
+                                <div class="table_icon tablecon2">CON*2</div>
+                        </a>
+                        <a href="#drink_con1">
+                                <div class="table_icon tablecon1">etc</div>
+                        </a>
+                </div>
 
-        <!-- <a href="#flask_top">
+                <!-- <a href="#flask_top">
             <div class="namako nama_ko"></div>
         </a> -->
 
-        <div class="page" id="logo">
-            <a id="drink_con5" class="title"></a><br>
-            <b>カクテル一覧</b><br><br>
-            <div id="memo">
-                <div class="texttest">1: アイリッシュコーヒー<br><span
-                        class="text_small">アイリッシュウィスキーに熱いコーヒーと砂糖を加えてたっぷりの生クリームを乗せたホットカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">2: アイ・オープナー<br><span
-                        class="text_small">ラムをベースにオレンジ・キュラソー、アブサン、砂糖と卵黄を加えた目が覚めるような味《CON*3》</span><br></div><br>
-                <div class="texttest">3: アキダクト<br><span
-                        class="text_small">ウォッカ、オレンジ・キュラソー、アプリコット・ブランデー、ライムジュースをシェイクした柑橘系の爽やかな口当たり《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">4: アドニス<br><span
-                        class="text_small">シェリーにスイートベルモット、オレンジビターズを加えた口当たりの良い琥珀色のカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">5: アフィニティ<br><span
-                        class="text_small">スコッチウィスキー(イギリス)にドライベルモット(フランス)、スイートベルモット(イタリア)が調和した、親しい間柄を象徴するカクテル　《CON*4》</span><br>
+                <div class="page" id="logo">
+                        <b>カクテル一覧</b><br>
+                        <a id="drink_con5" class="title"></a><br>
+                        <b>CON*5</b><br>
+                        <div id="memo">
+                                <div class="texttest">アプリコット・フィズ<br><span
+                                                class="text_small">アプリコット・ブランデーにレモンジュースとソーダを合わせた、清涼感のある味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">アメリカーノ<br><span
+                                                class="text_small">カンパリの苦みをベルモットの甘みを炭酸で割ったカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">アメール・ピコン・ハイボール<br><span
+                                                class="text_small">アメールピコンとグレナデンシロップにソーダを注いだ、ビターな味わいながらに飲みやすいカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">インペリアルフィズ<br><span
+                                                class="text_small">ウィスキーベースにホワイトラム、レモンジュース、シュガーシロップと炭酸水を合わせた甘くさっぱりとしたハイボールのようなカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">オペレーター<br><span
+                                                class="text_small">白ワインとジンジャエールを合わせ、レモンジュースを加えた炭酸のソフトドリンクのようなカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カカオフィズ<br><span
+                                                class="text_small">カカオリキュールにレモンジュースとソーダを合わせた、弾ける炭酸と香ばしいカカオの味わいがマッチするカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カサブランカ<br><span
+                                                class="text_small">ホワイトラムにパイナップルジュースとグレナデンシロップ、アンゴスチュラ・ビターズにクラッシュドアイスを合わせた桃色のフローズンカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カシスオレンジ<br><span
+                                                class="text_small">カシスリキュールとオレンジジュースを合わせたフレッシュなカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カシスソーダ<br><span
+                                                class="text_small">カシスリキュールにソーダを加えた、甘くシンプルで飲みやすいカクテル。レモンを添えても</span><br>
+                                </div><br>
+                                <div class="texttest">カラント・サンライズ<br><span
+                                                class="text_small">カランとウォッカをベースにオレンジジュースの橙、グレナデンシロップの赤のグラデーションが美しいカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カルーアミルク<br><span
+                                                class="text_small">コーヒー豆をスピリッツに漬け込んだカルーアリキュールと牛乳を合わせたコーヒー牛乳のようなカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カンパリオレンジ<br><span
+                                                class="text_small">カンパリとオレンジジュースと組み合わせた、オレンジの酸味と甘みの中にほんのりハーブが香るようなロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カンパリソーダ<br><span
+                                                class="text_small">ほろ苦いカンパリをソーダで割った、甘すぎない赤いカクテルロングカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">キューバリブレ<br><span
+                                                class="text_small">ラムに冷えたコーラを合わせ、ライムを絞った爽快で飲みごたえのあるロングカクテル。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">キルシュ・カシス<br><span
+                                                class="text_small">キルシュリキュールの上品な香りとカシスリキュールの甘さを合わせソーダをステアした、フランスでも人気のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">キティ<br><span
+                                                class="text_small">同量の赤ワインとジンジャエールを合わせた甘く飲みやすいカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">クロンダイク・ハイボール<br><span
+                                                class="text_small">ドライベルモット、スイートベルモット、レモンジュースにジンジャエールを合わせた爽やかでさっぱりとした飲み口のカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">サクラ<br><span
+                                                class="text_small">桜リキュールとトニックウォーター、カナディアン・クラブをステアした桜の花のような色合いの和風ショートカクテル。桜の花びらを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">サングリア・ブランカ<br><span
+                                                class="text_small">白ワインとブランデーやリキュール、フルーツを合わせて作る甘酸っぱいカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">シェリー・フリップ<br><span
+                                                class="text_small">ドライ・シェリーとシュガーシロップ、卵黄をシェイクした濃厚でやや甘口のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">シャンディ・ガフ<br><span
+                                                class="text_small">ビールにジンジャエールを合わせた、苦みが抑えられビールが苦手な人でも飲みやすいロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ジン・トニック<br><span
+                                                class="text_small">ジンに甘口のトニックウォーターを加えて作られる、甘くてすっきりとしたロングドリンク。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">スノーボール<br><span
+                                                class="text_small">卵のリキュールであるアドヴォカートにライムジュース、ソーダを加えた甘口のロングドリンク</span><br>
+                                </div><br>
+                                <div class="texttest">スプモーニ<br><span
+                                                class="text_small">カンパリにグレープフルーツジュース、トニックウォーターを混ぜた、搾りたてのジュースのようなフレッシュで仄かに苦いロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">チチ<br><span
+                                                class="text_small">ウォッカとココナツミルク、パイナップルジュースをシェイクしたトロピカルでミルキーな味わいのカクテル。パイナップルを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">チャイナブルー<br><span
+                                                class="text_small">ライチリキュール、ブルー・キュラソーとグレープフルーツジュースを合わせトニックウォーターで満たした、微炭酸でさっぱりした美しい青色のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">テキーラ・サンセット<br><span
+                                                class="text_small">テキーラ、レモンジュース、グレナデンシロップを合わせた、夕陽で染まる空のような色のさっぱりとしたカクテル。マラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">デニッシュ・メアリー<br><span
+                                                class="text_small">レモンの香り、トマトジュースの風味、最後にアクアビットが香るやや辛口で不透明な赤のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">トワイライト<br><span
+                                                class="text_small">ウォッカとオレンジジュース、トニックウォーターをステアしブルー・キュラソーを沈めたエメラルドグリーンの甘口カクテル</span><br>
+                                </div><br>
+                                <div class="texttest">バイオレットフィズ<br><span
+                                                class="text_small">菫のリキュールであるパルフェタムールにレモンジュースとシュガーシロップ、炭酸水を加えた甘くてしゅわしゅわとした紫いろのロングドリンク</span><br>
+                                </div><br>
+                                <div class="texttest">バックスフィズ<br><span
+                                                class="text_small">シャンパンをオレンジジュースで割った、さっぱりとした気軽に飲めるロングドリンク</span><br>
+                                </div><br>
+                                <div class="texttest">ピーチフィズ<br><span
+                                                class="text_small">ピーチのリキュールであるペシェとレモンジュース、ガムシロップを合わせソーダをステアした桃の香りが心地よいロングカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ピコン・グレナデン<br><span
+                                                class="text_small">アメール・ピコンとグレナデンシロップを合わせソーダをステアした、深い赤色を織りなす炭酸ロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ピニャコラーダ<br><span
+                                                class="text_small">ホワイト・ラムにココナツミルクとパイナップルジュースを加えたトロピカルなドリンク。チェリーやハイビスカスを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ファジーネーブル<br><span
+                                                class="text_small">ピーチ・リキュールとオレンジジュースを合わせた、ジュースのような味わいの飲みやすいロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">フランボワーズ・ソーダ<br><span
+                                                class="text_small">木イチゴのリキュールとソーダをステアしカットレモンを落とした甘酸っぱく爽やかな飲み口のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ブラック・ベルベット<br><span
+                                                class="text_small">テキーラ、ホワイト・キュラソー、レモンジュースとクラッシュドアイスをブレンドしたフローズンカクテル。グラスの縁に塩をつけたスノースタイルで</span><br>
+                                </div><br>
+                                <div class="texttest">ブラッドハウンド<br><span
+                                                class="text_small">ドライ・ジン、ドライベルモット、スイートベルモット、いちごをクラッシュドアイスとともにミキサーにかけたフローズンカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">プレリュード・フィズ<br><span
+                                                class="text_small">カンパリにカルピスの原液を加えソーダをステアした赤色の爽やかな口当たりのロングカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ベリーニ<br><span
+                                                class="text_small">スパークリングワインにピーチネクター、グレナデンシロップをステアした中甘口の微炭酸ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ベルモット・カシス<br><span
+                                                class="text_small">ドライベルモット、カシス・リキュールを合わせソーダをステアした、カシスの風味が爽やかに香るやや甘口のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ミドリ・ミルク<br><span
+                                                class="text_small">メロン・リキュールとたっぷりの牛乳をステアした、まろやかなメロンの風味が楽しめるほんのり緑色のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ミモザ<br><span
+                                                class="text_small">スパークリングワインとオレンジジュースを同量ステアしたしゅわしゅわした軽い口当たりと爽快感のカクテル。オレンジを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">メロンボール<br><span
+                                                class="text_small">ウォッカにメロン・リキュールとオレンジジュースを合わせた口当たりの良いフルーティなロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">モヒート<br><span
+                                                class="text_small">砂糖とミントを入れたグラスにラムとライムジュースを注いだ透明な辛口ロングカクテル。ミントを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">レッドアイ<br><span
+                                                class="text_small">ビールとトマトジュースを1：1で割った不透明な赤色のロングカクテル。タバスコや黒胡椒でアレンジしても</span><br>
+                                </div><br>
+                        </div><br>
+
+                        <a id="drink_con4" class="title"></a>
+                        <b>CON*4</b><br>
+                        <div id="memo">
+                                <div class="texttest">アイリッシュコーヒー<br><span
+                                                class="text_small">アイリッシュウィスキーに熱いコーヒーと砂糖を加えてたっぷりの生クリームを乗せたホットカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">アドニス<br><span
+                                                class="text_small">シェリーにスイートベルモット、オレンジビターズを加えた口当たりの良い琥珀色のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">アフィニティ<br><span
+                                                class="text_small">スコッチウィスキー(イギリス)にドライベルモット(フランス)、スイートベルモット(イタリア)が調和した、親しい間柄を象徴するカクテル　</span><br>
+                                </div><br>
+                                <div class="texttest">ホット・ウィスキー・トゥディ<br><span
+                                                class="text_small">ウィスキーをお湯で割り、お好みで甘いものや果実、スパイス、ハーブで味を調えたホットカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ウォッカ・アップルジュース<br><span
+                                                class="text_small">ウォッカをアップルジュースで割った甘くて飲みやすいカクテル。カットしたアップルを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">エッグノック<br><span
+                                                class="text_small">ブランデーベースに砂糖、卵、牛乳を合わせたまろやかで甘いカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">エルクス・オウン<br><span
+                                                class="text_small">ウィスキーにポートワイン、レモンジュースを卵白を合わせたマイルドで甘めなカクテル。パイナップルを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">エルディアブロ<br><span
+                                                class="text_small">テキーラにカシスリキュール、レモンジュースとジンジャーエールを合わせた、悪魔の名を冠しつつもフルーティで甘酸っぱいカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">エンジェルキッス<br><span
+                                                class="text_small">カカオリキュールに生クリームを乗せた、デザートのようなショートカクテル。カクテルピンに刺したマラスキーノ・チェリーを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">オレンジブロッサム<br><span
+                                                class="text_small">ジンとオレンジをシェイクしたフルーティなショートカクテル</span><br></div>
+                                <br>
+                                <div class="texttest">カウボーイ<br><span
+                                                class="text_small">ウィスキーに牛乳と砂糖を加えた、まろやかで飲みやすいカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カリフォルニアレモネード<br><span
+                                                class="text_small">ウィスキーをベースに複数のジュースやグレナデンシロップ、シュガーシロップを加え炭酸で仕上げた甘いカクテル。レモンを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">カーディナル<br><span
+                                                class="text_small">赤ワインとカシスリキュールをステアした深紅のカクテル。ミントを添えても</span><br>
+                                </div><br>
+                                <div class="texttest">キス・ミー・クイック<br><span
+                                                class="text_small">ハーブリキュールをベースにオレンジキュラソー、アンゴスチュラビターズ、ソーダを加えた刺激的でほろ苦いロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">キール<br><span
+                                                class="text_small">白ワインとカシスリキュールをステアしたすっきりとした飲み口のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">キール・ロワイヤル<br><span
+                                                class="text_small">シャンパンにカシスリキュールを合わせた、ロワイヤルの名の通り品のある味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">クリス<br><span
+                                                class="text_small">ブランデーをベースにドライベルモット、アマレット、レモンジュース、シュガーシロップにトニックウォーターを加えた、やや甘口の茶色く透明なロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">クロンダイク・クーラー<br><span
+                                                class="text_small">ウィスキーをベースにオレンジジュース、ジンジャエールを合わせ、螺旋状に剥いたオレンジの皮をグラスの中に沈めた黄金色のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">グラスホッパー<br><span
+                                                class="text_small">滑らかな生クリームとミントリキュールの中にカカオが香る、チョコミント好きに嬉しいデザート・ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">グランド・スラム<br><span
+                                                class="text_small">スウェーデン生まれのリキュールスウェディット・パンチとドライベルモット、スイートベルモットと合わせたスパイスの効いた味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">グリーンアイズ<br><span
+                                                class="text_small">ラムをベースにメロン、パイナップル、ココナツ、ライムの風味が合わさったトロピカルなフローズンカクテル。ライムを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ケーブルグラム・ハイボール<br><span
+                                                class="text_small">ウィスキーとレモンジュース、シュガーシロップをシェイクした、さっぱりした風味のロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">コペンハーゲン<br><span
+                                                class="text_small">じゃがいもを原料としたアクアビットにクレーム・ド・マンダリンを加えた、香り高く引き締まった味わいのショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">コロネーション<br><span
+                                                class="text_small">ドライ・シェリーにドライベルモット、オレンジ・ビターとマラスキーノをステアしたすっきりした飲み口の透明なカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ゴールデン・キャデラック<br><span
+                                                class="text_small">バニラが香るハーブ系リキュールのガリアーノとカカオリキュール、生クリームを合わせた濃厚な甘口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ゴールデン・ドーン<br><span
+                                                class="text_small">ジンとカルヴァドス、アプリコットリキュールとオレンジジュース、グレナデンシロップをシェイクした、黄金色の空に太陽が昇るようなグラデーションのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">サイドカー<br><span
+                                                class="text_small">ブランデーとホワイトキュラソー、レモンジュースを合わせたフルーティな飲み口のショートカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">サングリア<br><span
+                                                class="text_small">赤ワインとブランデーやリキュール、フルーツを合わせて作る、赤く甘酸っぱいカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">シェリー<br><span
+                                                class="text_small">スペイン南部のアンダルシア地方で生産された酒精強化ワイン。様々な色や香り、味わいのシェリーがある</span><br>
+                                </div><br>
+                                <div class="texttest">ジンバック<br><span
+                                                class="text_small">ジンとジンジャエール、レモンジュースを合わせた爽やかでドライな味わいのカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ジンリッキー<br><span
+                                                class="text_small">ジンと炭酸水をステアした、辛口でのどごしの良い甘くないロングカクテル。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">スクリュードライバー<br><span
+                                                class="text_small">ウォッカにオレンジジュースを加えた、癖がなくお酒が苦手な人でも飲みやすいロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">セプテンバー・モーン<br><span
+                                                class="text_small">ホワイト・ラムにレモンジュース、グレナデンシロップと卵白を合わせた仄かな桃色のまろやかで甘いカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ソルティドッグ<br><span
+                                                class="text_small">ウォッカとグレープフルーツジュースを合わせた酸味と塩気を味わえるカクテル。塩はスノースタイルで、グラスにはピンクグレープフルーツを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">チャーリー・チャップリン<br><span
+                                                class="text_small">アプリコット・ブランデーとスモモの甘みが感じられるスロー・ジン、酸味のきいたレモンジュースをシェイクした甘酸っぱいロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">テキーラ・サンライズ<br><span
+                                                class="text_small">テキーラ、オレンジジュース、グレナデンシロップを合わせた、朝焼けに染まる空のような色の甘酸っぱいカクテル。マラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">テネシー・クーラー<br><span
+                                                class="text_small">テネシー・ウィスキーとミントリキュール、レモンジュースとシュガーシロップにジンジャービアを合わせた優しい甘みと爽快感のあるロングドリンク。レモンとマラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">トム・コリンズ<br><span
+                                                class="text_small">ジンとレモンジュース、砂糖にソーダ水を合わせたすっきりとした味わいの透明なロングカクテル。チェリーとレモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ハーベイ・ウォールバンガー<br><span
+                                                class="text_small">ウォッカをベースにオレンジジュースを合わせガリアーノを浮かべた、甘みの中にハーブの深い味わいが感じられるロングドリンク。オレンジを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ピンク・スクアーレル<br><span
+                                                class="text_small">ヘーゼルナッツ・リキュールにカカオ・リキュール、生クリームをシェイクした甘口デザートショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ピンポン<br><span
+                                                class="text_small">スロー・ジン、菫を原料とするバイオレット・リキュールが対を成すような複雑な味わいを醸し、レモンジュースで整えた赤色の甘口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">フローズン・マルガリータ<br><span
+                                                class="text_small">テキーラをベースにホワイト・キュラソー、ライムジュースとクラッシュドアイスで仕上げる、引き締まった甘さの真っ白いフローズンカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ブラッディマリィ<br><span
+                                                class="text_small">ウォッカ、トマトジュース、レモンジュース、お好みで塩や胡椒、タバスコを加える、どろりとした口当たりの一風変わったロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ブルドッグ<br><span
+                                                class="text_small">ウォッカをグレープフルーツジュースで割ったカクテル。グラスの縁に塩をつけるとソルティドッグに</span><br>
+                                </div><br>
+                                <div class="texttest">ブルーハワイ<br><span
+                                                class="text_small">ホワイト・ラム、ブルー・キュラソー、パイナップルジュースとレモンジュースを合わせた青色のトロピカルなロングカクテル。レモンやパイナップルを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">マイタイ<br><span
+                                                class="text_small">複数のラムとパイナップルジュース、オレンジジュースにグレナデンシロップを加えたフルーティで見た目も味わいも豪華なカクテル。パイナップルやオレンジ、マラスキーノチェリーや欄の花を添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ミリオンダラー<br><span
+                                                class="text_small">スイートベルモット、パイナップルジュース、グレナデンシロップ、卵白をシェイクした中甘口のカクテル。パイナップルを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ムーラン・ルージュ<br><span
+                                                class="text_small">スロー・ジンとスイートベルモット、オレンジ・ビターズを合わせた甘酸っぱく綺麗な赤褐色のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">モスコミュール<br><span
+                                                class="text_small">ウォッカとジンジャエールを合わせ、ライムを絞ったシンプルで飲みごたえのあるロングカクテル。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">モーニング・グローリー・フィズ<br><span
+                                                class="text_small">ウィスキーとレモンジュースを1:1で混ぜ、アブサンとシュガーシロップ、卵白とソーダを合わせた口当たりがまろやかな中口ロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ラムコーク<br><span
+                                                class="text_small">ラムをコーラで割った、甘口で飲みやすいシンプルなロングカクテル。レモンを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ラモス・ジン・フィズ<br><span
+                                                class="text_small">ドライ・ジン、レモンジュース、牛乳、オレンジフラワーウォーター、シュガーシロップ、卵白をシェイクしソーダをステアしたしゅわしゅわした飲み口の中甘ロングカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ワイン・クーラー<br><span
+                                                class="text_small">コアントロー、オレンジジュースにグレナデンシロップ、ワイン（白/赤/ロゼの何れか）を合わせた中甘口のフルーティなカクテル</span><br>
+                                </div>
+                                <br>
+                        </div><br>
+
+                        <a id="drink_con3" class="title"></a>
+                        <b>CON*3</b><br>
+                        <div id="memo">
+                                <div class="texttest">アイ・オープナー<br><span
+                                                class="text_small">ラムをベースにオレンジ・キュラソー、アブサン、砂糖と卵黄を加えた目が覚めるような味のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">アキダクト<br><span
+                                                class="text_small">ウォッカ、オレンジ・キュラソー、アプリコット・ブランデー、ライムジュースをシェイクした柑橘系の爽やかな口当たりのカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">アラウンドザワールド<br><span
+                                                class="text_small">ジンベースにパイナップルジュースとグリーンミントリキュールを合わせた、爽やかな味わいのショートカクテル。ミントチェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">アレキサンダー<br><span
+                                                class="text_small">ブランデーをベースにカカオリキュールと生クリームをシェイクした甘く濃厚な味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">イエローパロット<br><span
+                                                class="text_small">アブサンとシャルトリューズ、アプリコットブランデーを合わせた南国を思わせる味わい。黄色いオウムを彷彿とさせるイエローのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ウィスキーフロート<br><span
+                                                class="text_small">ミネラルウォーターの上からウィスキーを浮かべるように注ぐ、飲むたびに変化する味わいや色合いを楽しむカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ウォッカ・アイスバーグ<br><span
+                                                class="text_small">ウォッカベースにアブサンを加えた、ハーブが香るドライな味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ウォッカ・ギブソン<br><span
+                                                class="text_small">ウォッカとドライベルモットをステア、パール・オニオンを添えた辛口のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">オリンピック<br><span
+                                                class="text_small">ブランデーにオレンジジュースとオレンジキュラソーを合わせた、果汁の旨味が溢れるショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">オールドファッション<br><span
+                                                class="text_small">アロマティックビターズを染み込ませた角砂糖にバーボンを注ぎ、レモンなどのフルーツを添えた甘くて苦い古典的なカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">オールド・パル<br><span
+                                                class="text_small">ライウィスキーとドライベルモット、カンパリをステアした、スパイシーさと甘さ、苦みが混在するカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">オーロラ<br><span
+                                                class="text_small">ウォッカをベースに複数種のフルーツリキュールやジュース、グレナデンシロップを合わせた赤くて甘いフルーティなカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">カイピロスカ<br><span
+                                                class="text_small">クラッシュアイスで冷えたウォッカにカットしたライムを加えた爽やかなカクテル。グラスの淵にもライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">カミカゼ<br><span
+                                                class="text_small">ウォッカとホワイトキュラソーにライムを絞った辛口でキレのある味わいのカクテル。ショートグラスやショットグラスでライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">キス・イン・ザ・ダーク<br><span
+                                                class="text_small">ジンをベースに、チェリーブランデーとドライベルモットをシェイクした芳醇な香りのショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">キス・オブ・ファイア<br><span
+                                                class="text_small">ウォッカとジン、ドライベルモットにレモンジュースを加えた、渋く癖になるショートカクテル。スノースタイルで</span><br>
+                                </div><br>
+                                <div class="texttest">キャロル<br><span
+                                                class="text_small">ブランデーとスイートベルモットをステアしパールオニオンを沈めた、甘く苦いショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ギブソン<br><span
+                                                class="text_small">ドライ・ジンにドライベルモットを加え、パールオニオンを沈めたやや辛口の透明なショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ギムレット<br><span
+                                                class="text_small">ドライ・ジンとライムジュースをシェイクした、クリアな味わいのショートカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">クイーンエリザベス<br><span
+                                                class="text_small">ブランデーとスイートベルモット、オレンジキュラソーをステアした、イギリスの豪華客船を彷彿とさせる優雅な味わいのショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">クォーター・デック<br><span
+                                                class="text_small">ホワイト・ラムと甘口のドライシェリ－、酸味のあるライムジュースを合わせた、中口でやさしい味のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">クール・バナナ<br><span
+                                                class="text_small">バナナリキュールとグレナデンシロップ、生クリームにホワイトキュラソーを加えた、まろやかでコクのあるデザートのようなショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">グラッド・アイ<br><span
+                                                class="text_small">ミントリキュールと様々な薬草から作られたペルノが織りなす刺激的な味わいの、鮮やかな緑色をしたカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">コスモポリタン<br><span
+                                                class="text_small">シトラスウォッカにホワイトキュラソー、クランベリージュースとライムジュースをシェイクした、甘くさっぱりとした赤色のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ゴッドマザー<br><span
+                                                class="text_small">ウォッカとアマレットを使用した、ゴッドファーザーより甘くて優しい味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ゴールデン・ドリーム<br><span
+                                                class="text_small">バニラが香るハーブ系リキュールのガリアーノとオレンジリキュール、オレンジジュースと生クリームを加えたオレンジのヨーグルトのような甘口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">サイレント・サード<br><span
+                                                class="text_small">スコッチウィスキーにホワイトキュラソー、レモンジュースを合わせた、爽やかな味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">シルク・ストッキングス<br><span
+                                                class="text_small">テキーラとボルス・ホワイトカカオ、グレナデンシロップに生クリームを合わせた、ほんのりピンク色のふわふわとしたカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ジャックローズ<br><span
+                                                class="text_small">アップルブランデーとライムジュース、グレナデンシロップをシェイクした豊かな林檎の香りがする赤色のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ジン・デイジー<br><span
+                                                class="text_small">ドライ・ジンにレモンジュース、グレナデンシロップを合わせた雛菊を彷彿とさせる色合いのロングカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">スコーピオン<br><span
+                                                class="text_small">ラムとブランデーを合わせ、オレンジ・レモンライムのジュースを加えた口当たりの良い甘口のカクテル。レモンとライム、マラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ダイキリ<br><span
+                                                class="text_small">ホワイト・ラム、ライムジュース、砂糖を合わせた爽やかな飲み口のカクテル。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">チェリーブロッサム<br><span
+                                                class="text_small">チェリーブランデーにオレンジ・キュラソー、レモンジュース、グレナデンシロップを合わせた、酸味が効いたさっぱりとした味わいのショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ディキ・ディキ<br><span
+                                                class="text_small">カルヴァドス。ジン、グレープフルーツジュースをシェイクした、フルーティながらに甘くない蜂蜜色のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">デュボネ・カクテル<br><span
+                                                class="text_small">ドライ・ジンとデュボネをステアした、コク深くキレのある味わいの暗い赤色をしたショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">トロピカル・レイン<br><span
+                                                class="text_small">風味のダーク・ラムとチェリー・リキュール、レモンジュースにホワイトキュラソーをシェイクした、複雑な風味がする赤褐色の中口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ドライマティーニ<br><span
+                                                class="text_small">ジンとドライベルモットを4:1の割合でステアした、透明な辛口ショートカクテル。オリーブを沈めて</span><br>
+                                </div><br>
+                                <div class="texttest">ナイトキャップ<br><span
+                                                class="text_small">ブランデー、アニス酒、卵黄、オレンジ・キュラソーをシェイクしたハーブの香りとコクがハーモニーを織りなすカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ニューヨーク<br><span
+                                                class="text_small">ウィスキーとライムジュース、グレナデンシロップをシェイクし、仕上げにオレンジを絞ったすっきりとキレのある味わいのカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ネグローニ<br><span
+                                                class="text_small">ドライ・ジンにカンパリの苦み、スイートベルモットのハーブ味が効いた甘さ控えめなすっきりとした味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ハイライフ<br><span
+                                                class="text_small">ウォッカ、ホワイトキュラソー、パイナップルジュース、卵白をシェイクした甘口ながらにはっきりとした味わいのショートカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">バハマ<br><span
+                                                class="text_small">ホワイト・ラム、フルーツやスパイス・ハーブを加えて作られる蒸留酒サザン・カンフォート、バナナリキュール、レモンジュースをしぇいくした黄色くて透明な甘めのショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">バラライカ<br><span
+                                                class="text_small">ウォッカにホワイト・キュラソー、レモンジュースを加えた仄かに甘いさっぱりとしたショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">バーバラ<br><span
+                                                class="text_small">ウォッカにカカオリキュールと生クリームを加えて作る、ミルクチョコレートのような濃厚で甘いデザートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ピンクレディ<br><span
+                                                class="text_small">ジン、グレナデンシロップ、卵白をシェイクした、辛口のジンと甘いシロップが絶妙なハーモニーを織りなす、ほんのりピンク色のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">フォーリン・エンジェル<br><span
+                                                class="text_small">ドライ・ジンとミントリキュール、レモンジュースにアロマティックビターズを加えた透き通る緑色の爽やかなショートカクテル。ミントを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ブラッド・アンド・サンド<br><span
+                                                class="text_small">ウィスキー、スイートベルモット、チェリーブランデー、オレンジジュースをシェイクした甘口のショートカクテル。マラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ブランデー・サワー<br><span
+                                                class="text_small">ブランデー、レモンジュース、シュガーシロップをシェイクしたレモンの酸味がしっかりと感じられるショートカクテル。レモンとマラスキーノ・チェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ブランデー・フリップ<br><span
+                                                class="text_small">ブランデーにシュガーシロップ、卵黄を加えナツメグパウダーを振りかけた、まろやかな口当たりのデザートショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ブルームーン<br><span
+                                                class="text_small">ドライ・ジンと菫を原料とするバイオレット・リキュールにレモンを絞った、透明な紫色の美しい甘口ショートカクテル</span><br>
+                                </div><br>
+
+                                <div class="texttest">ブルーラグーン<br><span
+                                                class="text_small">ブルー・キュラソーとレモンジュースを合わせた、青色が美しい甘口カクテル。スライスしたオレンジ、レモン、マラスキーノチェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ブルームーン<br><span
+                                                class="text_small">ドライ・ジンと菫を原料とするバイオレット・リキュールにレモンを絞った、透明な紫色の美しい甘口ショートカクテル</span><br>
+                                </div><br>
+
+                                <div class="texttest">ブロンクス<br><span
+                                                class="text_small">ドライ・ジン、ドライベルモット、スイートベルモット、オレンジジュースをシェイクした複雑な風味を仄かな甘みが調和する、中甘心先生辛口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ボビー・バーンズ<br><span
+                                                class="text_small">スコッチ・ウィスキー、スイートベルモット、フランス産のブランデーをベースとするリキュールであるベネディクティンにレモンを絞った中口で複雑な風味のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ボンベイ<br><span
+                                                class="text_small">ブランでー、スイートベルモット、ドライベルモット、オレンジ・リキュール、パスティスをステアした、味わい豊かな中口カクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">マルガリータ<br><span
+                                                class="text_small">テキーラ、ホワイト・キュラソー、レモンジュースをシェイクしたショートカクテル。グラスの縁に塩をまぶしたスノースタイルで</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">マンハッタン<br><span
+                                                class="text_small">ウィスキー、スイートベルモット、アンゴスチュラ・ビターズをステアした甘くてビターなショートカクテル。レッドチェリーを添えて</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ミントジュレップ<br><span
+                                                class="text_small">ミントの葉と砂糖、クラッシュドアイスを入れたグラスにウィスキーを注ぎしっかりステアして作るフローズンカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">メリー・ウィドウ<br><span
+                                                class="text_small">チェリー・リキュールとマラスキーノを合わせた甘くフルーティで飲みやすいカクテル。マラスキーノチェリーを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">モンタナ<br><span
+                                                class="text_small">ブランデー、ポートワイン、ドライベルモットをステアした、濃厚ながらにドライさも感じられるやや辛口のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ライジング・サン<br><span
+                                                class="text_small">テキーラ、シャトリューズ・ジョーヌ、ライムジュース、スロー・ジンを合わせマラスキーノチェリーを沈めた太陽が昇るような見た目の中口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">レンチコネクション<br><span
+                                                class="text_small">ブランデーとアマレットを合わせた香り高く上品な甘さの優雅なカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ロングアイランドアイスティー<br><span
+                                                class="text_small">ウォッカ、ドライ・ジン、ラム、テキーラにホワイト・キュラソーとレモンジュース、コーラを合わせた、紅茶のような味がするロングカクテル。レモンを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">雪国<br><span
+                                                class="text_small">ウォッカ、ホワイト・キュラソー、ライムジュースを合わせた半透明なショートカクテル。グラスの縁に砂糖をまぶしたスノースタイルで、ミント・チェリーを沈めて</span><br>
+                                </div><br>
+                                <div class="texttest">XYZ<br><span
+                                                class="text_small">ホワイト・ラム、ホワイト・キュラソー、レモンジュースを2:1:1の割合でシェイクしたほんのり甘酸っぱいやや辛口の半透明なショートカクテル</span><br>
+                                </div><br>
+                        </div><br>
+
+                        <a id="drink_con2" class="title"></a>
+                        <b>CON*2</b><br>
+                        <div id="memo">
+                                <div class="texttest">アラスカ<br><span
+                                                class="text_small">ドライ・ジンとシャルトリューズ・ジョーヌをステアした、薬草系やハーブ系のスパイシーな味のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ゴッドファーザー<br><span
+                                                class="text_small">ウィスキーにアマレットを加えた、仄かにアーモンドが香るカクテル。オレンジピールを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ジプシー<br><span
+                                                class="text_small">ウォッカをベースに製菓にも使われる甘口のベネディクティン、アンゴスチュラビターズを合わせた、やや甘口の不思議な味わいながらも飲みやすいショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ジン・ライム<br><span
+                                                class="text_small">ジンにライムジュースを加えて作られる、ドライなジンの味わいとライムの仄かな酸味を感じられるカクテル。ライムを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">スティンガー<br><span
+                                                class="text_small">ブランデーにピリッとしたホワイトペパーミントを合わせた、刺激的な味わいの甘口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">スパニッシュ・タウン<br><span
+                                                class="text_small">ホワイト・ラムに僅かにオレンジ・キュラソーを加えた、ダイレクトにラムの味わいを感じられる超辛口のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">スレッジ・ハンマー<br><span
+                                                class="text_small">ウォッカとライムジュースを5:1でシェイクした、まさにハンマーのようなガツンとした味わいの辛口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ナップ・フラッペ<br><span
+                                                class="text_small">ブランデーとハーブが香るシャトリューズ、甘い薬草系のキュンメルとクラッシュドアイスをミキサーにかけたやや甘口のフローズンカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ニコラシカ<br><span
+                                                class="text_small">ブランデーが注がれたグラスに蓋をするように乗せられたレモンスライス、その上に砂糖が小さな山を作っている一風変わったカクテル。<br>レモンを頬張りブランデーを飲むことで口の中で混ざり合いブランデー・サワーのような味わいが楽しめる</span><br>
+                                </div><br>
+                                <div class="texttest">ビトウィーン・ザ・シーツ<br><span
+                                                class="text_small">ブランデー、ラム、ホワイト・キュラソーにレモンジュースをシェイクした、柑橘系の中に妖艶な香りが漂うショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ブランデー・クラスタ<br><span
+                                                class="text_small">ブランデー、マラスキーノ、レモンジュースにアンゴスチュラ・ビターズをシェイクした、やや甘口のロングカクテル。螺旋状に剥いたレモンの皮を添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ブランデー・ブレイザー<br><span
+                                                class="text_small">ブランデーに僅かにシュガーシロップを加え、オレンジピールとレモンピールを絞り、火をつけて仕上げる辛口ショートカクテル</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">ホワイトレディ<br><span
+                                                class="text_small">ドライ・ジン、コアントロー、レモンジュースを合わせたバランスが良くエレガントな味わいのカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">マイアミ<br><span
+                                                class="text_small">ホワイト・ラムの甘さとホワイト・キュラソーの香り、レモンジュースの酸味がマッチした中口からやや甘口の白くて半透明なショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">マティーニ<br><span
+                                                class="text_small">ジンとドライベルモットを合わせたハーブの複雑な風味と爽やかな苦みが楽しめるショートカクテル。オリーブを添えて</span><br>
+                                </div><br>
+                                <div class="texttest">ライラ<br><span
+                                                class="text_small">ホワイト・キュラソーとライムジュースの香りの後に力強いウォッカを感じる辛口で透明なショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ラスティネイル<br><span
+                                                class="text_small">ウィスキーにモルト・ウィスキーをベースに作られたドランブイを加えた甘口ながらに度数の高い琥珀色のカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ルシアン<br><span
+                                                class="text_small">ウォッカ、ジン、カカオ・リキュールをシェイクした、コーヒーの香りで飲みやすい中辛口のショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ロバート・バーンズ<br><span
+                                                class="text_small">スコッチ・ウィスキー、スイートベルモット、オレンジ・ビター、アブサンをステアした芳醇な香りで優しい口当たりの中辛口ショートカクテル</span><br>
+                                </div><br>
+                                <div class="texttest">ロブロイ<br><span
+                                                class="text_small">スコッチ・ウィスキー、スイートベルモット、アロマティック・ビターズをステアした、甘口のショートカクテル。マラスキーノチェリーを添えて</span><br>
+                                </div><br>
+                        </div><br>
+
+                        <a id="drink_con1" class="title"></a>
+                        <b>etc</b><br>
+                        <div id="memo">
+                                <div class="texttest">アメリカンレモネード<br><span
+                                                class="text_small">レモン汁とシロップで作ったレモネードの上に赤ワインを注いで作る、二層のコントラストが美しいカクテル《CON*6》</span><br>
+                                </div><br>
+                                <div class="texttest">プースカフェ<br><span
+                                                class="text_small">リキュールや蒸留酒、シロップを何段もの層にして提供する、バーテンダーごとに材料が違うカクテル。一層ずつストローで味わう《CON*？》</span><br>
+                                </div>
+                                <br>
+                                <div class="texttest">シャーリー・テンプル<br><span
+                                                class="text_small">グレナデンシロップとジンジャエールを合わせたノンアルコールカクテル。イチゴやレモンを添えて《ノンアル》</span><br>
+                                </div><br>
+                                <div class="texttest">シンデレラ<br><span
+                                                class="text_small">オレンジジュースとパイナップルジュース、レモンジュースを合わせた爽やかな味わいのノンアルコールカクテル《ノンアル》</span><br>
+                                </div><br>
+                                <div class="texttest">フロリダ<br><span
+                                                class="text_small">オレンジジュースとレモンジュース、砂糖をシェイクしたフルーティな黄金色のノンアルコールカクテル《ノンアル》</span><br>
+                                </div><br>
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
-                <br>
-                <div class="texttest">6: アプリコット・フィズ<br><span
-                        class="text_small">アプリコット・ブランデーにレモンジュースとソーダを合わせた、清涼感のある味わいのカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">7: アメリカンレモネード<br><span
-                        class="text_small">レモン汁とシロップで作ったレモネードの上に赤ワインを注いで作る、二層のコントラストが美しいカクテル《CON*6》</span><br></div><br>
-                <div class="texttest">8: アメリカーノ<br><span
-                        class="text_small">カンパリの苦みをベルモットの甘みを炭酸で割ったカクテル。レモンを添えて《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">9: アメール・ピコン・ハイボール<br><span
-                        class="text_small">アメールピコンとグレナデンシロップにソーダを注いだ、ビターな味わいながらに飲みやすいカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">10: アラウンドザワールド<br><span
-                        class="text_small">ジンベースにパイナップルジュースとグリーンミントリキュールを合わせた、爽やかな味わいのショートカクテル。ミントチェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">11: アラスカ<br><span
-                        class="text_small">ドライ・ジンとシャルトリューズ・ジョーヌをステアした、薬草系やハーブ系のスパイシーな味のショートカクテル《CON*2》</span><br></div>
-                <br>
-                <div class="texttest">12: アレキサンダー<br><span
-                        class="text_small">ブランデーをベースにカカオリキュールと生クリームをシェイクした甘く濃厚な味わいのカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">13: イエローパロット<br><span
-                        class="text_small">アブサンとシャルトリューズ、アプリコットブランデーを合わせた南国を思わせる味わい。黄色いオウムを彷彿とさせるイエローのカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">14: インペリアルフィズ<br><span
-                        class="text_small">ウィスキーベースにホワイトラム、レモンジュース、シュガーシロップと炭酸水を合わせた甘くさっぱりとしたハイボールのようなカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">15: ホット・ウィスキー・トゥディ<br><span
-                        class="text_small">ウィスキーをお湯で割り、お好みで甘いものや果実、スパイス、ハーブで味を調えたホットカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">16: ウィスキーフロート<br><span
-                        class="text_small">ミネラルウォーターの上からウィスキーを浮かべるように注ぐ、飲むたびに変化する味わいや色合いを楽しむカクテル《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">17: ウォッカ・アイスバーグ<br><span
-                        class="text_small">ウォッカベースにアブサンを加えた、ハーブが香るドライな味わいのカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">18: ウォッカ・アップルジュース<br><span
-                        class="text_small">ウォッカをアップルジュースで割った甘くて飲みやすいカクテル。カットしたアップルを添えて《CON*4》</span><br></div><br>
-                <div class="texttest">19: ウォッカ・ギブソン<br><span
-                        class="text_small">ウォッカとドライベルモットをステア、パール・オニオンを添えた辛口のショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">20: エッグノック<br><span
-                        class="text_small">ブランデーベースに砂糖、卵、牛乳を合わせたまろやかで甘いカクテル《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">21: エルクス・オウン<br><span
-                        class="text_small">ウィスキーにポートワイン、レモンジュースを卵白を合わせたマイルドで甘めなカクテル。パイナップルを添えて《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">22: エルディアブロ<br><span
-                        class="text_small">テキーラにカシスリキュール、レモンジュースとジンジャーエールを合わせた、悪魔の名を冠しつつもフルーティで甘酸っぱいカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">23: エンジェルキッス<br><span
-                        class="text_small">カカオリキュールに生クリームを乗せた、デザートのようなショートカクテル。カクテルピンに刺したマラスキーノ・チェリーを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">24: オペレーター<br><span
-                        class="text_small">白ワインとジンジャエールを合わせ、レモンジュースを加えた炭酸のソフトドリンクのようなカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">25: オリンピック<br><span
-                        class="text_small">ブランデーにオレンジジュースとオレンジキュラソーを合わせた、果汁の旨味が溢れるショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">26: オレンジブロッサム<br><span
-                        class="text_small">ジンとオレンジをシェイクしたフルーティなショートカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">27: オールドファッション<br><span
-                        class="text_small">アロマティックビターズを染み込ませた角砂糖にバーボンを注ぎ、レモンなどのフルーツを添えた甘くて苦い古典的なカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">28: オールド・パル<br><span
-                        class="text_small">ライウィスキーとドライベルモット、カンパリをステアした、スパイシーさと甘さ、苦みが混在するカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">29: オーロラ<br><span
-                        class="text_small">ウォッカをベースに複数種のフルーツリキュールやジュース、グレナデンシロップを合わせた赤くて甘いフルーティなカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">30: カイピロスカ<br><span
-                        class="text_small">クラッシュアイスで冷えたウォッカにカットしたライムを加えた爽やかなカクテル。グラスの淵にもライムを添えて《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">31: カウボーイ<br><span
-                        class="text_small">ウィスキーに牛乳と砂糖を加えた、まろやかで飲みやすいカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">32: カカオフィズ<br><span
-                        class="text_small">カカオリキュールにレモンジュースとソーダを合わせた、弾ける炭酸と香ばしいカカオの味わいがマッチするカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">33: カサブランカ<br><span
-                        class="text_small">ホワイトラムにパイナップルジュースとグレナデンシロップ、アンゴスチュラ・ビターズにクラッシュドアイスを合わせた桃色のフローズンカクテル《CON*5》</span><br>
-                </div>
-                <br>
-                <div class="texttest">34: カシスオレンジ<br><span
-                        class="text_small">カシスリキュールとオレンジジュースを合わせたフレッシュなカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">35: カシスソーダ<br><span
-                        class="text_small">カシスリキュールにソーダを加えた、甘くシンプルで飲みやすいカクテル。レモンを添えても《CON*5》</span><br></div><br>
-                <div class="texttest">36: カミカゼ<br><span
-                        class="text_small">ウォッカとホワイトキュラソーにライムを絞った辛口でキレのある味わいのカクテル。ショートグラスやショットグラスでライムを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">37: カラント・サンライズ<br><span
-                        class="text_small">カランとウォッカをベースにオレンジジュースの橙、グレナデンシロップの赤のグラデーションが美しいカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">38: カリフォルニアレモネード<br><span
-                        class="text_small">ウィスキーをベースに複数のジュースやグレナデンシロップ、シュガーシロップを加え炭酸で仕上げた甘いカクテル。レモンを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">39: カルーアミルク<br><span
-                        class="text_small">コーヒー豆をスピリッツに漬け込んだカルーアリキュールと牛乳を合わせたコーヒー牛乳のようなカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">40: カンパリオレンジ<br><span
-                        class="text_small">カンパリとオレンジジュースと組み合わせた、オレンジの酸味と甘みの中にほんのりハーブが香るようなロングカクテル《CON*5》</span><br>
-                </div><br>
-            </div>
-
-            <a id="drink_con4" class="title"></a>
-            <!-- <b>CON*4</b><br> -->
-            <div id="memo">
-                <div class="texttest">41: カンパリソーダ<br><span
-                        class="text_small">ほろ苦いカンパリをソーダで割った、甘すぎない赤いカクテルロングカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">42: カーディナル<br><span
-                        class="text_small">赤ワインとカシスリキュールをステアした深紅のカクテル。ミントを添えても《CON*4》</span><br></div><br>
-                <div class="texttest">43: キス・イン・ザ・ダーク<br><span
-                        class="text_small">ジンをベースに、チェリーブランデーとドライベルモットをシェイクした芳醇な香りのショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">44: キス・オブ・ファイア<br><span
-                        class="text_small">ウォッカとジン、ドライベルモットにレモンジュースを加えた、渋く癖になるショートカクテル。スノースタイルで《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">45: キス・ミー・クイック<br><span
-                        class="text_small">ハーブリキュールをベースにオレンジキュラソー、アンゴスチュラビターズ、ソーダを加えた刺激的でほろ苦いロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">46: キャロル<br><span
-                        class="text_small">ブランデーとスイートベルモットをステアしパールオニオンを沈めた、甘く苦いショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">47: キューバリブレ<br><span
-                        class="text_small">ラムに冷えたコーラを合わせ、ライムを絞った爽快で飲みごたえのあるロングカクテル。ライムを添えて《CON*5》</span><br></div><br>
-                <div class="texttest">48: キルシュ・カシス<br><span
-                        class="text_small">キルシュリキュールの上品な香りとカシスリキュールの甘さを合わせソーダをステアした、フランスでも人気のロングカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">49: キール<br><span
-                        class="text_small">白ワインとカシスリキュールをステアしたすっきりとした飲み口のカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">50: キール・ロワイヤル<br><span
-                        class="text_small">シャンパンにカシスリキュールを合わせた、ロワイヤルの名の通り品のある味わいのカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">51: キティ<br><span
-                        class="text_small">同量の赤ワインとジンジャエールを合わせた甘く飲みやすいカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">52: ギブソン<br><span
-                        class="text_small">ドライ・ジンにドライ・ベルモットを加え、パールオニオンを沈めたやや辛口の透明なショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">53: ギムレット<br><span
-                        class="text_small">ドライ・ジンとライムジュースをシェイクした、クリアな味わいのショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">54: クイーンエリザベス<br><span
-                        class="text_small">ブランデーとスイート・ベルモット、オレンジキュラソーをステアした、イギリスの豪華客船を彷彿とさせる優雅な味わいのショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">55: クォーター・デック<br><span
-                        class="text_small">ホワイト・ラムと甘口のドライシェリ－、酸味のあるライムジュースを合わせた、中口でやさしい味のカクテル《CON*》</span><br></div><br>
-                <div class="texttest">56: クリス<br><span
-                        class="text_small">ブランデーをベースにドライベルモット、アマレット、レモンジュース、シュガーシロップにトニックウォーターを加えた、やや甘口の茶色く透明なロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">57: クロンダイク・クーラー<br><span
-                        class="text_small">ウィスキーをベースにオレンジジュース、ジンジャエールを合わせ、螺旋状に剥いたオレンジの皮をグラスの中に沈めた黄金色のロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">58: クロンダイク・ハイボール<br><span
-                        class="text_small">ドライ・ベルモット、スイート・ベルモット、レモンジュースにジンジャエールを合わせた爽やかでさっぱりとした飲み口のカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">59: クール・バナナ<br><span
-                        class="text_small">バナナリキュールとグレナデン・シロップ、生クリームにホワイトキュラソーを加えた、まろやかでコクのあるデザートのようなショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">60: グラスホッパー<br><span
-                        class="text_small">滑らかな生クリームとミントリキュールの中にカカオが香る、チョコミント好きに嬉しいデザート・ショートカクテル《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">61: グラッド・アイ<br><span
-                        class="text_small">ミントリキュールと様々な薬草から作られたペルノが織りなす刺激的な味わいの、鮮やかな緑色をしたカクテル《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">62: グランド・スラム<br><span
-                        class="text_small">スウェーデン生まれのリキュールスウェディット・パンチとドライ・ベルモット、スイート・ベルモットと合わせたスパイスの効いた味わいのカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">63: グリーンアイズ<br><span
-                        class="text_small">ラムをベースにメロン、パイナップル、ココナツ、ライムの風味が合わさったトロピカルなフローズンカクテル。ライムを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">64: ケーブルグラム・ハイボール<br><span
-                        class="text_small">ウィスキーとレモンジュース、シュガーシロップをシェイクした、さっぱりした風味のロングカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">65: コスモポリタン<br><span
-                        class="text_small">シトラスウォッカにホワイトキュラソー、クランベリージュースとライムジュースをシェイクした、甘くさっぱりとした赤色のショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">66: コペンハーゲン<br><span
-                        class="text_small">じゃがいもを原料としたアクアビットにクレーム・ド・マンダリンを加えた、香り高く引き締まった味わいのショートカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">67: コロネーション<br><span
-                        class="text_small">ドライ・シェリーにドライ・ベルモット、オレンジ・ビターとマラスキーノをステアしたすっきりした飲み口の透明なカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">68: ゴッドファーザー<br><span
-                        class="text_small">ウィスキーにアマレットを加えた、仄かにアーモンドが香るカクテル。オレンジピールを添えて《CON*２》</span><br></div><br>
-                <div class="texttest">69: ゴッドマザー<br><span
-                        class="text_small">ウォッカとアマレットを使用した、ゴッドファーザーより甘くて優しい味わいのカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">70: ゴールデン・キャデラック<br><span
-                        class="text_small">バニラが香るハーブ系リキュールのガリアーノとカカオリキュール、生クリームを合わせた濃厚な甘口ショートカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">71: ゴールデン・ドリーム<br><span
-                        class="text_small">バニラが香るハーブ系リキュールのガリアーノとオレンジリキュール、オレンジジュースと生クリームを加えたオレンジのヨーグルトのような甘口ショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">72: ゴールデン・ドーン<br><span
-                        class="text_small">ジンとカルヴァドス、アプリコットリキュールとオレンジジュース、グレナデンシロップをシェイクした、黄金色の空に太陽が昇るようなグラデーションのカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">73: サイドカー<br><span
-                        class="text_small">ブランデーとホワイトキュラソー、レモンジュースを合わせたフルーティな飲み口のショートカクテル。レモンを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">74: サイレント・サード<br><span
-                        class="text_small">スコッチウィスキーにホワイトキュラソー、レモンジュースを合わせた、爽やかな味わいのカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">75: サクラ<br><span
-                        class="text_small">桜リキュールとトニックウォーター、カナディアン・クラブをステアした桜の花のような色合いの和風ショートカクテル。桜の花びらを添えて《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">76: シェリー・フリップ<br><span
-                        class="text_small">ドライ・シェリーとシュガーシロップ、卵黄をシェイクした濃厚でやや甘口のショートカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">77: シェリー<br><span
-                        class="text_small">スペイン南部のアンダルシア地方で生産された酒精強化ワイン。様々な色や香り、味わいのシェリーがある《CON*4》</span><br></div><br>
-                <div class="texttest">78: シャンディ・ガフ<br><span
-                        class="text_small">ビールにジンジャエールを合わせた、苦みが抑えられビールが苦手な人でも飲みやすいロングカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">79: シャーリー・テンプル<br><span
-                        class="text_small">グレナデン・シロップとジンジャエールを合わせたノンアルコールカクテル。イチゴやレモンを添えて《ノンアル》</span><br></div><br>
-                <div class="texttest">80: シルク・ストッキングス<br><span
-                        class="text_small">テキーラとボルス・ホワイトカカオ、グレナデンシロップに生クリームを合わせた、ほんのりピンク色のふわふわとしたカクテル《CON*3》</span><br>
-                </div><br>
-            </div>
-
-            <a id="drink_con3" class="title"></a>
-            <!-- <b>CON*3</b><br> -->
-            <div id="memo">
-                <div class="texttest">81: シンデレラ<br><span
-                        class="text_small">オレンジジュースとパイナップルジュース、レモンジュースを合わせた爽やかな味わいのノンアルコールカクテル《ノンアル》</span><br></div>
-                <br>
-                <div class="texttest">82: ジプシー<br><span
-                        class="text_small">ウォッカをベースに製菓にも使われる甘口のベネディクティン、アンゴスチュラビターズを合わせた、やや甘口の不思議な味わいながらも飲みやすいショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">83: ジャックローズ<br><span
-                        class="text_small">アップルブランデーとライムジュース、グレナデンシロップをシェイクした豊かな林檎の香りがする赤色のカクテル《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">84: ジンバック<br><span
-                        class="text_small">ジンとジンジャエール、レモンジュースを合わせた爽やかでドライな味わいのカクテル。レモンを添えて《CON*4》</span><br></div><br>
-                <div class="texttest">85: ジンリッキー<br><span
-                        class="text_small">ジンと炭酸水をステアした、辛口でのどごしの良い甘くないロングカクテル。ライムを添えて《CON*4》</span><br></div><br>
-                <div class="texttest">86: ジン・デイジー<br><span
-                        class="text_small">ドライ・ジンにレモンジュース、グレナデンシロップを合わせた雛菊を彷彿とさせる色合いのロングカクテル。レモンを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">87: ジン・トニック<br><span
-                        class="text_small">ジンに甘口のトニックウォーターを加えて作られる、甘くてすっきりとしたロングドリンク。ライムを添えて《CON*5》</span><br></div><br>
-                <div class="texttest">88: ジン・ライム<br><span
-                        class="text_small">ジンにライムジュースを加えて作られる、ドライなジンの味わいとライムの仄かな酸味を感じられるカクテル。ライムを添えて《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">89: スクリュードライバー<br><span
-                        class="text_small">ウォッカにオレンジジュースを加えた、癖がなくお酒が苦手な人でも飲みやすいロングカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">90: スコーピオン<br><span
-                        class="text_small">ラムとブランデーを合わせ、オレンジ・レモンライムのジュースを加えた口当たりの良い甘口のカクテル。レモンとライム、マラスキーノ・チェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">91: スティンガー<br><span
-                        class="text_small">ブランデーにピリッとしたホワイトペパーミントを合わせた、刺激的な味わいの甘口ショートカクテル《CON*2》</span><br></div><br>
-                <div class="texttest">92: スノーボール<br><span
-                        class="text_small">卵のリキュールであるアドヴォカートにライムジュース、ソーダを加えた甘口のロングドリンク《CON*5》</span><br></div><br>
-                <div class="texttest">93: スパニッシュ・タウン<br><span
-                        class="text_small">ホワイト・ラムに僅かにオレンジ・キュラソーを加えた、ダイレクトにラムの味わいを感じられる超辛口のショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">94: スプモーニ<br><span
-                        class="text_small">カンパリにグレープフルーツジュース、トニックウォーターを混ぜた、搾りたてのジュースのようなフレッシュで仄かに苦いロングカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">95: スレッジ・ハンマー<br><span class="text_small">ウォッカとライムジュースを5<br><span
-                            class="text_small">1でシェイク下、まさにハンマーのようなガツンとした味わいの辛口ショートカクテル《CON*2》</span><br></div><br>
-                <div class="texttest">96: セプテンバー・モーン<br><span
-                        class="text_small">ホワイト・ラムにレモンジュース、グレナデン・シロップと卵白を合わせた仄かな桃色のまろやかで甘いカクテル《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">97: ソルティドッグ<br><span
-                        class="text_small">ウォッカとグレープフルーツジュースを合わせた酸味と塩気を味わえるカクテル。塩はスノースタイルで、グラスにはピンクグレープフルーツを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">98: ダイキリ<br><span
-                        class="text_small">ホワイト・ラム、ライムジュース、砂糖を合わせた爽やかな飲み口のカクテル。ライムを添えて《CON*3》</span><br></div><br>
-                <div class="texttest">99: チェリーブロッサム<br><span
-                        class="text_small">チェリーブランデーにオレンジ・キュラソー、レモンジュース、グレナデン・シロップを合わせた、酸味が効いたさっぱりとした味わいのショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">100: チチ<br><span
-                        class="text_small">ウォッカとココナツミルク、パイナップルジュースをシェイクしたトロピカルでミルキーな味わいのカクテル。パイナップルを添えて《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">101: チャイナブルー<br><span
-                        class="text_small">ライチリキュール、ブルー・キュラソーとグレープフルーツジュースを合わせトニックウォーターで満たした、微炭酸でさっぱりした美しい青色のショートカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">102: チャーリー・チャップリン<br><span
-                        class="text_small">アプリコット・ブランデーとスモモの甘みが感じられるスロー・ジン、酸味のきいたレモンジュースをシェイクした甘酸っぱいロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">103: テキーラ・サンセット<br><span
-                        class="text_small">テキーラ、レモンジュース、グレナデンシロップを合わせた、夕陽で染まる空のような色のさっぱりとしたカクテル。マラスキーノ・チェリーを添えて《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">104: テキーラ・サンライズ<br><span
-                        class="text_small">テキーラ、オレンジジュース、グレナデンシロップを合わせた、朝焼けに染まる空のような色の甘酸っぱいカクテル。マラスキーノ・チェリーを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">105: テネシー・クーラー<br><span
-                        class="text_small">テネシー・ウィスキーとミントリキュール、レモンジュースとシュガーシロップにジンジャービアを合わせた優しい甘みと爽快感のあるロングドリンク。レモンとマラスキーノ・チェリーを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">106: ディキ・ディキ<br><span
-                        class="text_small">カルヴァドス。ジン、グレープフルーツジュースをシェイクした、フルーティながらに甘くない蜂蜜色のショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">107: デニッシュ・メアリー<br><span
-                        class="text_small">レモンの香り、トマトジュースの風味、最後にアクアビットが香るやや辛口で不透明な赤のロングカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">108: デュボネ・カクテル<br><span
-                        class="text_small">ドライ・ジンとデュボネをステアした、コク深くキレのある味わいの暗い赤色をしたショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">109: トム・コリンズ<br><span
-                        class="text_small">ジンとレモンジュース、砂糖にソーダ水を合わせたすっきりとした味わいの透明なロングカクテル。チェリーとレモンを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">110: トロピカル・レイン<br><span
-                        class="text_small">風味のダーク・ラムとチェリー・リキュール、レモンジュースにホワイトキュラソーをシェイクした、複雑な風味がする赤褐色の中口ショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">111: トワイライト<br><span
-                        class="text_small">ウォッカとオレンジジュース、トニックウォーターをステアしブルー・キュラソーを沈めたエメラルドグリーンの甘口カクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">112: ドライマティーニ<br><span
-                        class="text_small">ジンとドライベルモットを4：1の割合でステアした、透明な辛口ショートカクテル。オリーブを沈めて《CON*3》</span><br></div><br>
-                <div class="texttest">113: ナイトキャップ<br><span
-                        class="text_small">ブランデー、アニス酒、卵黄、オレンジ・キュラソーをシェイクしたハーブの香りとコクがハーモニーを織りなすカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">114: ナップ・フラッペ<br><span
-                        class="text_small">ブランデーとハーブが香るシャトリューズ、甘い薬草系のキュンメルとクラッシュドアイスをミキサーにかけたやや甘口のフローズンカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">115: ニコラシカ<br><span
-                        class="text_small">ブランデーが注がれたグラスに蓋をするように乗せられたレモンスライス、その上に砂糖が小さな山を作っている一風変わったカクテル。レモンを頬張りブランデーを飲むことで口の中で混ざり合いブランデー・サワーのような味わいが楽しめる《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">116: ニューヨーク<br><span
-                        class="text_small">ウィスキーとライムジュース、グレナデン・シロップをシェイクし、仕上げにオレンジを絞ったすっきりとキレのある味わいのカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">117: ネグローニ<br><span
-                        class="text_small">ドライ・ジンにカンパリの苦み、スイート・ベルモットのハーブ味が効いた甘さ控えめなすっきりとした味わいのカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">118: ハイライフ<br><span
-                        class="text_small">ウォッカ、ホワイトキュラソー、パイナップルジュース、卵白をシェイクした甘口ながらにはっきりとした味わいのショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">119: ハーベイ・ウォールバンガー<br><span
-                        class="text_small">ウォッカをベースにオレンジジュースを合わせガリアーノを浮かべた、甘みの中にハーブの深い味わいが感じられるロングドリンク。オレンジを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">120: バイオレットフィズ<br><span
-                        class="text_small">菫のリキュールであるパルフェタムールにレモンジュースとシュガーシロップ、炭酸水を加えた甘くてしゅわしゅわとした紫いろのロングドリンク《CON*5》</span><br>
-                </div><br>
-            </div>
-
-            <a id="drink_con2" class="title"></a>
-            <!-- <b>CON*2</b><br> -->
-            <div id="memo">
-                <div class="texttest">121: バックスフィズ<br><span
-                        class="text_small">シャンパンをオレンジジュースで割った、さっぱりとした気軽に飲めるロングドリンク《CON*5》</span><br></div><br>
-                <div class="texttest">122: バハマ<br><span
-                        class="text_small">ホワイト・ラム、フルーツやスパイス・ハーブを加えて作られる蒸留酒サザン・カンフォート、バナナリキュール、レモンジュースをしぇいくした黄色くて透明な甘めのショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">123: バラライカ<br><span
-                        class="text_small">ウォッカにホワイト・キュラソー、レモンジュースを加えた仄かに甘いさっぱりとしたショートカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">124: バーバラ<br><span
-                        class="text_small">ウォッカにカカオリキュールと生クリームを加えて作る、ミルクチョコレートのような濃厚で甘いデザートカクテル《CON*3》</span><br></div>
-                <br>
-                <div class="texttest">125: ピーチフィズ<br><span
-                        class="text_small">ピーチのリキュールであるペシェとレモンジュース、ガムシロップを合わせソーダをステアした桃の香りが心地よいロングカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">126: ビトウィーン・ザ・シーツ<br><span
-                        class="text_small">ブランデー、ラム、ホワイト・キュラソーにレモンジュースをシェイクした、柑橘系の中に妖艶な香りが漂うショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">127: ピコン・グレナデン<br><span
-                        class="text_small">アメール・ピコンとグレナデン・シロップを合わせソーダをステアした、深い赤色を織りなす炭酸ロングカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">128: ピニャコラーダ<br><span
-                        class="text_small">ホワイト・ラムにココナツミルクとパイナップルジュースを加えたトロピカルなドリンク。チェリーやハイビスカスを添えて《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">129: ピンクレディ<br><span
-                        class="text_small">ジン、グレナデン・シロップ、卵白をシェイクした、辛口のジンと甘いシロップが絶妙なハーモニーを織りなす、ほんのりピンク色のショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">130: ピンク・スクアーレル<br><span
-                        class="text_small">ヘーゼルナッツ・リキュールにカカオ・リキュール、生クリームをシェイクした甘口デザートショートカクテル《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">131: ピンポン<br><span
-                        class="text_small">スロー・ジン、菫を原料とするバイオレット・リキュールが対を成すような複雑な味わいを醸し、レモンジュースで整えた赤色の甘口ショートカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">132: ファジーネーブル<br><span
-                        class="text_small">ピーチ・リキュールとオレンジジュースを合わせた、ジュースのような味わいの飲みやすいロングカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">133: フォーリン・エンジェル<br><span
-                        class="text_small">ドライ・ジンとミントリキュール、レモンジュースにアロマティックビターズを加えた透き通る緑色の爽やかなショートカクテル。ミントを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">134: フランボワーズ・ソーダ<br><span
-                        class="text_small">木イチゴのリキュールとソーダをステアしカットレモンを落とした甘酸っぱく爽やかな飲み口のロングカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">135: フロリダ<br><span
-                        class="text_small">オレンジジュースとレモンジュース、砂糖をシェイクしたフルーティな黄金色のノンアルコールカクテル《ノンアル》</span><br></div><br>
-                <div class="texttest">136:
-                    フローズン・マルガリータ<br><span
-                        class="text_small">テキーラをベースにホワイト・キュラソー、ライムジュースとクラッシュドアイスで仕上げる、引き締まった甘さの真っ白いフローズンカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">137: ブラック・ベルベット<br><span
-                        class="text_small">テキーラ、ホワイト・キュラソー、レモンジュースとクラッシュドアイスをブレンドしたフローズンカクテル。グラスの縁に塩をつけたスノースタイルで《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">138: ブラッディマリィ<br><span
-                        class="text_small">ウォッカ、トマトジュース、レモンジュース、お好みで塩や胡椒、タバスコを加える、どろりとした口当たりの一風変わったロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">139: ブラッドハウンド<br><span
-                        class="text_small">ドライ・ジン、ドライ・ベルモット、スイート・ベルモット、いちごをクラッシュドアイスとともにミキサーにかけたフローズンカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">140: ブラッド・アンド・サンド<br><span
-                        class="text_small">ウィスキー、スイートベルモット、チェリーブランデー、オレンジジュースをシェイクした甘口のショートカクテル。マラスキーノ・チェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">141: ブランデー・クラスタ<br><span
-                        class="text_small">ブランデー、マラスキーノ、レモンジュースにアンゴスチュラ・ビターズをシェイクした、やや甘口のロングカクテル。螺旋状に剥いたレモンの皮を添えて《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">142: ブランデー・サワー<br><span
-                        class="text_small">ブランデー、レモンジュース、シュガーシロップをシェイクしたレモンの酸味がしっかりと感じられるショートカクテル。レモンとマラスキーノ・チェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">143: ブランデー・フリップ<br><span
-                        class="text_small">ブランデーにシュガーシロップ、卵黄を加えナツメグパウダーを振りかけた、まろやかな口当たりのデザートショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">144: ブランデー・ブレイザー<br><span
-                        class="text_small">ブランデーに僅かにシュガーシロップを加え、オレンジピールとレモンピールを絞り、火をつけて仕上げる辛口ショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">145: ブルドッグ<br><span
-                        class="text_small">ウォッカをグレープフルーツジュースで割ったカクテル。グラスの縁に塩をつけるとソルティドッグに《CON*4》</span><br></div><br>
-                <div class="texttest">146: ブルーハワイ<br><span
-                        class="text_small">ホワイト・ラム、ブルー・キュラソー、パイナップルジュースとレモンジュースを合わせた青色のトロピカルなロングカクテル。レモンやパイナップルを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">147: ブルームーン<br><span
-                        class="text_small">ドライ・ジンと菫を原料とするバイオレット・リキュールにレモンを絞った、美しい透明な紫色の甘口ショートカクテル《CON*》</span><br></div>
-                <br>
-                <div class="texttest">148: ブルーラグーン<br><span
-                        class="text_small">ブルー・キュラソーとレモンジュースを合わせた、青色が美しい甘口カクテル。スライスしたオレンジ、レモン、マラスキーノチェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">149: ブロンクス<br><span
-                        class="text_small">ドライ・ジン、ドライ・ベルモット、スイート・ベルモット、オレンジジュースをシェイクした複雑な風味を仄かな甘みが調和する、中甘心先生辛口ショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">150: プレリュード・フィズ<br><span
-                        class="text_small">カンパリにカルピスの原液を加えソーダをステアした赤色の爽やかな口当たりのロングカクテル。レモンを添えて《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">151: プースカフェ<br><span
-                        class="text_small">リキュールや蒸留酒、シロップを何段もの層にして提供する、バーテンダーごとに材料が違うカクテル。一層ずつストローで味わう《CON*？》</span><br>
-                </div><br>
-                <div class="texttest">152: ベリーニ<br><span
-                        class="text_small">スパークリングワインにピーチネクター、グレナデン・シロップをステアした中甘口の微炭酸ショートカクテル《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">153: ベルモット・カシス<br><span
-                        class="text_small">ドライ・ベルモット、カシス・リキュールを合わせソーダをステアした、カシスの風味が爽やかに香るやや甘口のロングカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">154: ホワイトレディ<br><span
-                        class="text_small">ドライ・ジン、コアントロー、レモンジュースを合わせたバランスが良くエレガントな味わいのカクテル《CON*2》</span><br></div><br>
-                <div class="texttest">155: ボビー・バーンズ<br><span
-                        class="text_small">スコッチ・ウィスキー、スイート・ベルモット、フランス産のブランデーをベースとするリキュールであるベネディクティンにレモンを絞った中口で複雑な風味のショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">156: ボンベイ<br><span
-                        class="text_small">ブランでー、スイート・ベルモット、ドライ・ベルモット、オレンジ・リキュール、パスティスをステアした、味わい豊かな中口カクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">157: マイアミ<br><span
-                        class="text_small">ホワイト・ラムの甘さとホワイト・キュラソーの香り、レモンジュースの酸味がマッチした中口からやや甘口の白くて半透明なショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">158: マイタイ<br><span
-                        class="text_small">複数のラムとパイナップルジュース、オレンジジュースにグレナデン・シロップを加えたフルーティで見た目も味わいも豪華なカクテル。パイナップルやオレンジ、マラスキーノチェリーや欄の花を添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">159: マティーニ<br><span
-                        class="text_small">ジンとドライ・ベルモットを合わせたハーブの複雑な風味と爽やかな苦みが楽しめるショートカクテル。オリーブを添えて《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">160: マルガリータ<br><span
-                        class="text_small">テキーラ、ホワイト・キュラソー、レモンジュースをシェイクしたショートカクテル。グラスの縁に塩をまぶしたスノースタイルで《CON*3》</span><br>
-                </div><br>
-            </div>
-
-            <a id="drink_con1" class="title"></a>
-            <!-- <b>CON*1</b><br> -->
-            <div id="memo">
-                <div class="texttest">161: マンハッタン<br><span
-                        class="text_small">ウィスキー、スイート・ベルモット、アンゴスチュラ・ビターズをステアした甘くてビターなショートカクテル。レッドチェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">162: ミドリ・ミルク<br><span
-                        class="text_small">メロン・リキュールとたっぷりの牛乳をステアした、まろやかなメロンの風味が楽しめるほんのり緑色のロングカクテル《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">163: ミモザ<br><span
-                        class="text_small">スパークリングワインとオレンジジュースを同量ステアしたしゅわしゅわした軽い口当たりと爽快感のカクテル。オレンジを添えて《CON*5》</span><br>
-                </div><br>
-                <div class="texttest">164: ミリオンダラー<br><span
-                        class="text_small">スイート・ベルモット、パイナップルジュース、グレナデン・シロップ、卵白をシェイクした中甘口のカクテル。パイナップルを添えて《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">165: ミントジュレップ<br><span
-                        class="text_small">ミントの葉と砂糖、クラッシュドアイスを入れたグラスにウィスキーを注ぎしっかりステアして作るフローズンカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">166: ムーラン・ルージュ<br><span
-                        class="text_small">スロー・ジンとスイート・ベルモット、オレンジ・ビターズを合わせた甘酸っぱく綺麗な赤褐色のショートカクテル《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">167: メリー・ウィドウ<br><span
-                        class="text_small">チェリー・リキュールとマラスキーノを合わせた甘くフルーティで飲みやすいカクテル。マラスキーノチェリーを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">168: メロンボール<br><span
-                        class="text_small">ウォッカにメロン・リキュールとオレンジジュースを合わせた口当たりの良いフルーティなロングカクテル《CON*5》</span><br></div><br>
-                <div class="texttest">169: モスコミュール<br><span
-                        class="text_small">ウォッカとジンジャエールを合わせ、ライムを絞ったシンプルで飲みごたえのあるロングカクテル。ライムを添えて《CON*4》</span><br></div>
-                <br>
-                <div class="texttest">170: モヒート<br><span
-                        class="text_small">砂糖とミントを入れたグラスにラムとライムジュースを注いだ透明な辛口ロングカクテル。ミントを添えて《CON*5》</span><br></div><br>
-                <div class="texttest">171: モンタナ<br><span
-                        class="text_small">ブランデー、ポートワイン、ドライ・ベルモットをステアした、濃厚ながらにドライさも感じられるやや辛口のショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">172: モーニング・グローリー・フィズ<br><span
-                        class="text_small">ウィスキーとレモンジュースを1：1で混ぜ、あぶさんとシュガーシロップ、卵白とソーダを合わせた口当たりがまろやかな中口ロングカクテル《CON*4》</span><br>
-                </div>
-                <br>
-                <div class="texttest">173: ライジング・サン<br><span
-                        class="text_small">テキーラ、シャトリューズ・ジョーヌ、ライムジュース、スロー・ジンを合わせマラスキーノチェリーを沈めた太陽が昇るような見た目の中口ショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">174: ライラ<br><span
-                        class="text_small">ホワイト・キュラソーとライムジュースの香りの後に力強いウォッカを感じる辛口で透明なショートカクテル《CON*2》</span><br></div><br>
-                <div class="texttest">175: ラスティネイル<br><span
-                        class="text_small">ウィスキーにモルト・ウィスキーをベースに作られたドランブイを加えた甘口ながらに度数の高い琥珀色のカクテル《CON*2》</span><br></div>
-                <br>
-                <div class="texttest">176: ラムコーク<br><span
-                        class="text_small">ラムをコーラで割った、甘口で飲みやすいシンプルなロングカクテル。レモンを添えて《CON*4》</span><br></div><br>
-                <div class="texttest">177: ラモス・ジン・フィズ<br><span
-                        class="text_small">ドライ・ジン、レモンジュース、牛乳、オレンジフラワーウォーター、シュガーシロップ、卵白をシェイクしソーダをステアしたしゅわしゅわした飲み口の中甘ロングカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">178: ルシアン<br><span
-                        class="text_small">ウォッカ、ジン、カカオ・リキュールをシェイクした、コーヒーの香りで飲みやすい中辛口のショートカクテル《CON*2》</span><br></div>
-                <br>
-                <div class="texttest">179: レッドアイ<br><span
-                        class="text_small">ビールとトマトジュースを1：1で割った不透明な赤色のロングカクテル。タバスコや黒胡椒でアレンジしても《CON*5》</span><br></div>
-                <br>
-                <div class="texttest">180: レンチコネクション<br><span
-                        class="text_small">ブランデーとアマレットを合わせた香り高く上品な甘さの優雅なカクテル《CON*3》</span><br></div><br>
-                <div class="texttest">181: ロバート・バーンズ<br><span
-                        class="text_small">スコッチ・ウィスキー、スイート・ベルモット、オレンジ・ビター、あぶさんをステアした芳醇な香りで優しい口当たりの中辛口ショートカクテル《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">182: ロブロイ<br><span
-                        class="text_small">スコッチ・ウィスキー、スイート・ベルモット、アロマティック・ビターズをステアした、甘口のショートカクテル。マラスキーノチェリーを添えて《CON*2》</span><br>
-                </div><br>
-                <div class="texttest">183: ロングアイランドアイスティー<br><span
-                        class="text_small">ウォッカ、ドライ・ジン、ラム、テキーラにホワイト・キュラソーとレモンジュース、コーラを合わせた、紅茶のような味がするロングカクテル。レモンを添えて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">184: ワイン・クーラー<br><span
-                        class="text_small">コアントロー、オレンジジュースにグレナデン・シロップ、ワイン（白/赤/ロゼの何れか）を合わせた中甘口のフルーティなカクテル《CON*4》</span><br>
-                </div><br>
-                <div class="texttest">185: 雪国<br><span
-                        class="text_small">ウォッカ、ホワイト・キュラソー、ライムジュースを合わせた半透明なショートカクテル。グラスの縁に砂糖をまぶしたスノースタイルで、ミント・チェリーを沈めて《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">186: XYZ<br><span
-                        class="text_small">ホワイト・ラム、ホワイト・キュラソー、レモンジュースを2：1の割合でシェイクしたほんのり甘酸っぱいやや辛口の半透明なショートカクテル《CON*3》</span><br>
-                </div><br>
-                <div class="texttest">187: サングリア<br><span
-                        class="text_small">赤ワインとブランデーやリキュール、フルーツを合わせて作る、赤く甘酸っぱいカクテル《CON*4》</span><br></div><br>
-                <div class="texttest">188: サングリア・ブランカ<br><span
-                        class="text_small">白ワインとブランデーやリキュール、フルーツを合わせて作る甘酸っぱいカクテル《CON*5》</span><br></div><br>
-
-            </div>
-
         </div>
-    </div>
 
 </body>
 
