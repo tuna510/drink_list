@@ -217,10 +217,10 @@ nav li:hover {
 /* 前ページ＞右のメニュー------------------------ */
 .table_drink {
     position: fixed;
-    left: 75%;
+    left: 74%;
     top: 13%;
     padding: 20px;
-    width: 150px;
+    width: 30px;
     height: 60%;
     text-align: center;
 }
@@ -231,13 +231,14 @@ nav li:hover {
 
 .table_icon {
     color: #ffffff;
-    width: 165px;
+    width: 60px;
     height: 50px;
     margin-bottom: 10px;
     line-height: 52px;
     /* ほわってしたの戻す */
     transform: scale(1.0);
     transition-duration: 0.5s;
+    border-radius: 10px;
 }
 
 /* ほわってさせる */
@@ -281,12 +282,12 @@ nav li:hover {
 
 /* ■ページ共通 */
 .page {
-    margin: 60px 150px;
+    margin: 60px 100px 60px 20px;
     color: #ffffff;
 }
 
 .page2 {
-    margin: 60px 150px;
+    margin: 60px 20px;
     color: #ffffff;
 }
 
